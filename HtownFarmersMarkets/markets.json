@@ -1,0 +1,76 @@
+[
+	{
+	"id": "Memorial Villages Farmers Market",
+	
+	"vendors": [
+		{
+			"id": "Olive Scaciati",
+			"products": "italian sausage and hand cracked sicilian style marinatted olives"
+		},
+		{
+			"id": "Cassetta Catering",
+			"products": "Authentic Italian cuisine from pasta to sauces"
+		}
+	],
+
+	"description" : "Memorial Village Farmers Market is open every Saturday from 9AM to 1PM. The market has a wide variety of local small businesses and is accomopanied with live music every saturday from local artist. "
+    ,
+	"address" : "Beinhorn",
+    "xcoord" : 29.77876,
+    "ycoord" : -95.50460,
+    "open" : "Thursday",
+    "time" : "9am-1pm"
+    
+	},
+
+		{
+	"id": "Heights Farmers Market",
+	
+	"vendors": [
+		{
+			"id": "Olive Scaciati",
+			"products": "italian sausage and hand cracked sicilian style marinatted olives"
+		},
+		{
+			"id": "Cassetta Catering",
+			"products": "Authentic Italian cuisine from pasta to sauces"
+		}
+	],
+
+	"description" : "The Heights Farmers Market is open the 2nd and 4th sunday of every month from 9am to 1pm. The market has a wide variety of local small businesses. "
+    ,
+	"address" : "Heights Blvd",
+    "xcoord" : 29.78347040802645,
+    "ycoord" : -95.39969354696383,
+    "open" : "Sunday",
+    "time" : "9am-1pm"
+	},
+
+	{
+	"id": "Rice Village Farmers Market",
+	
+	"vendors": [
+		{
+			"id": "Olive Scaciati",
+			"products": "italian sausage and hand cracked sicilian style marinatted olives"
+		},
+		{
+			"id": "Cassetta Catering",
+			"products": "Authentic Italian cuisine from pasta to sauces"
+		}
+	],
+
+	"description" : "The Rice Village Farmers Market is open the 1st and 3rd sunday of every month from 9am to 1pm. The market has a wide variety of local small businesses. "
+    ,
+	"address" : "Rice Blvd",
+    "xcoord" : 29.716095257656978,
+    "ycoord" : -95.41706251372793,
+    "open" : "Sunday",
+    "time" : "10am-2pm"
+	}
+
+
+
+
+
+]

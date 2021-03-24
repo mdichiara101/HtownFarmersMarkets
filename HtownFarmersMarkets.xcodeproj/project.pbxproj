@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26183CB725EFF44000F3AD86 /* MarketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26183CB625EFF44000F3AD86 /* MarketsView.swift */; };
+		26287FBC25F01A3700CE99DF /* VendorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26287FBB25F01A3700CE99DF /* VendorsView.swift */; };
+		2638225725E563B400C420C7 /* HtownFarmersMarketsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2638225625E563B400C420C7 /* HtownFarmersMarketsApp.swift */; };
+		2638225925E563B400C420C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2638225825E563B400C420C7 /* ContentView.swift */; };
+		2638225B25E563B600C420C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2638225A25E563B600C420C7 /* Assets.xcassets */; };
+		2638225E25E563B600C420C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2638225D25E563B600C420C7 /* Preview Assets.xcassets */; };
+		2638226725E56AB800C420C7 /* markets.json in Resources */ = {isa = PBXBuildFile; fileRef = 2638226625E56AB800C420C7 /* markets.json */; };
+		2638226A25E56FF000C420C7 /* vendors.json in Resources */ = {isa = PBXBuildFile; fileRef = 2638226925E56FF000C420C7 /* vendors.json */; };
+		2638226D25E5708800C420C7 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2638226C25E5708800C420C7 /* Bundle-Decodable.swift */; };
+		2638227025E5723700C420C7 /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2638226F25E5723700C420C7 /* Market.swift */; };
+		2638227425E573C500C420C7 /* Vendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2638227325E573C500C420C7 /* Vendor.swift */; };
+		2638227725E575B700C420C7 /* MarketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2638227625E575B700C420C7 /* MarketView.swift */; };
+		2638227A25E58EB700C420C7 /* VendorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2638227925E58EB700C420C7 /* VendorView.swift */; };
+		26AC6C6525E6EF3C00E4B1A3 /* SwiftlySearch in Frameworks */ = {isa = PBXBuildFile; productRef = 26AC6C6425E6EF3C00E4B1A3 /* SwiftlySearch */; };
+		26C4555925FEA9AB00FC0DFB /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C4555825FEA9AB00FC0DFB /* UserSettings.swift */; };
+		26C4893A25EFED8A00C298EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26C4893925EFED8A00C298EE /* GoogleService-Info.plist */; };
+		26C985F525E6BC80007BCB84 /* CLLocationCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C985F425E6BC80007BCB84 /* CLLocationCoordinate.swift */; };
+		4E42E5B48AF5AC240C8AF378 /* Pods_HtownFarmersMarkets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3C1CC4FE6FCE5743578645 /* Pods_HtownFarmersMarkets.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26183CB625EFF44000F3AD86 /* MarketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketsView.swift; sourceTree = "<group>"; };
+		26287FBB25F01A3700CE99DF /* VendorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorsView.swift; sourceTree = "<group>"; };
+		2638225325E563B400C420C7 /* HtownFarmersMarkets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HtownFarmersMarkets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2638225625E563B400C420C7 /* HtownFarmersMarketsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HtownFarmersMarketsApp.swift; sourceTree = "<group>"; };
+		2638225825E563B400C420C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2638225A25E563B600C420C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2638225D25E563B600C420C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2638225F25E563B600C420C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2638226625E56AB800C420C7 /* markets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = markets.json; sourceTree = "<group>"; };
+		2638226925E56FF000C420C7 /* vendors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vendors.json; sourceTree = "<group>"; };
+		2638226C25E5708800C420C7 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		2638226F25E5723700C420C7 /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
+		2638227325E573C500C420C7 /* Vendor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vendor.swift; sourceTree = "<group>"; };
+		2638227625E575B700C420C7 /* MarketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketView.swift; sourceTree = "<group>"; };
+		2638227925E58EB700C420C7 /* VendorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorView.swift; sourceTree = "<group>"; };
+		26C4555825FEA9AB00FC0DFB /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		26C4893925EFED8A00C298EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		26C985F425E6BC80007BCB84 /* CLLocationCoordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocationCoordinate.swift; sourceTree = "<group>"; };
+		5C6059D8F95EC49827C98886 /* Pods-HtownFarmersMarkets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HtownFarmersMarkets.release.xcconfig"; path = "Target Support Files/Pods-HtownFarmersMarkets/Pods-HtownFarmersMarkets.release.xcconfig"; sourceTree = "<group>"; };
+		6607BBAEAD21135E07CB9D92 /* Pods-HtownFarmersMarkets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HtownFarmersMarkets.debug.xcconfig"; path = "Target Support Files/Pods-HtownFarmersMarkets/Pods-HtownFarmersMarkets.debug.xcconfig"; sourceTree = "<group>"; };
+		EE3C1CC4FE6FCE5743578645 /* Pods_HtownFarmersMarkets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HtownFarmersMarkets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2638225025E563B400C420C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26AC6C6525E6EF3C00E4B1A3 /* SwiftlySearch in Frameworks */,
+				4E42E5B48AF5AC240C8AF378 /* Pods_HtownFarmersMarkets.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2638224A25E563B300C420C7 = {
+			isa = PBXGroup;
+			children = (
+				2638225525E563B400C420C7 /* HtownFarmersMarkets */,
+				2638225425E563B400C420C7 /* Products */,
+				6E1C81B88CB5E8041EC6F6FE /* Pods */,
+				8BEB1FBBC8B70C42AE26B1C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2638225425E563B400C420C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2638225325E563B400C420C7 /* HtownFarmersMarkets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2638225525E563B400C420C7 /* HtownFarmersMarkets */ = {
+			isa = PBXGroup;
+			children = (
+				2638225625E563B400C420C7 /* HtownFarmersMarketsApp.swift */,
+				2638225825E563B400C420C7 /* ContentView.swift */,
+				26287FBB25F01A3700CE99DF /* VendorsView.swift */,
+				26183CB625EFF44000F3AD86 /* MarketsView.swift */,
+				2638225A25E563B600C420C7 /* Assets.xcassets */,
+				2638225F25E563B600C420C7 /* Info.plist */,
+				2638226F25E5723700C420C7 /* Market.swift */,
+				2638227625E575B700C420C7 /* MarketView.swift */,
+				26C4555825FEA9AB00FC0DFB /* UserSettings.swift */,
+				2638226625E56AB800C420C7 /* markets.json */,
+				2638227325E573C500C420C7 /* Vendor.swift */,
+				2638227925E58EB700C420C7 /* VendorView.swift */,
+				2638226925E56FF000C420C7 /* vendors.json */,
+				2638225C25E563B600C420C7 /* Preview Content */,
+				2638226C25E5708800C420C7 /* Bundle-Decodable.swift */,
+				26C985F425E6BC80007BCB84 /* CLLocationCoordinate.swift */,
+				26C4893925EFED8A00C298EE /* GoogleService-Info.plist */,
+			);
+			path = HtownFarmersMarkets;
+			sourceTree = "<group>";
+		};
+		2638225C25E563B600C420C7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2638225D25E563B600C420C7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6E1C81B88CB5E8041EC6F6FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6607BBAEAD21135E07CB9D92 /* Pods-HtownFarmersMarkets.debug.xcconfig */,
+				5C6059D8F95EC49827C98886 /* Pods-HtownFarmersMarkets.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8BEB1FBBC8B70C42AE26B1C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE3C1CC4FE6FCE5743578645 /* Pods_HtownFarmersMarkets.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2638225225E563B400C420C7 /* HtownFarmersMarkets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2638226225E563B600C420C7 /* Build configuration list for PBXNativeTarget "HtownFarmersMarkets" */;
+			buildPhases = (
+				8837F33821BE6D0409A09863 /* [CP] Check Pods Manifest.lock */,
+				2638224F25E563B400C420C7 /* Sources */,
+				2638225025E563B400C420C7 /* Frameworks */,
+				2638225125E563B400C420C7 /* Resources */,
+				3BD53307259A1B60745622C0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HtownFarmersMarkets;
+			packageProductDependencies = (
+				26AC6C6425E6EF3C00E4B1A3 /* SwiftlySearch */,
+			);
+			productName = HtownFarmersMarkets;
+			productReference = 2638225325E563B400C420C7 /* HtownFarmersMarkets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2638224B25E563B300C420C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					2638225225E563B400C420C7 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 2638224E25E563B300C420C7 /* Build configuration list for PBXProject "HtownFarmersMarkets" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2638224A25E563B300C420C7;
+			packageReferences = (
+				26AC6C6325E6EF3C00E4B1A3 /* XCRemoteSwiftPackageReference "SwiftlySearch" */,
+			);
+			productRefGroup = 2638225425E563B400C420C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2638225225E563B400C420C7 /* HtownFarmersMarkets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2638225125E563B400C420C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2638225E25E563B600C420C7 /* Preview Assets.xcassets in Resources */,
+				2638226A25E56FF000C420C7 /* vendors.json in Resources */,
+				26C4893A25EFED8A00C298EE /* GoogleService-Info.plist in Resources */,
+				2638226725E56AB800C420C7 /* markets.json in Resources */,
+				2638225B25E563B600C420C7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BD53307259A1B60745622C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HtownFarmersMarkets/Pods-HtownFarmersMarkets-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HtownFarmersMarkets/Pods-HtownFarmersMarkets-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HtownFarmersMarkets/Pods-HtownFarmersMarkets-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8837F33821BE6D0409A09863 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HtownFarmersMarkets-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2638224F25E563B400C420C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26287FBC25F01A3700CE99DF /* VendorsView.swift in Sources */,
+				26183CB725EFF44000F3AD86 /* MarketsView.swift in Sources */,
+				2638225925E563B400C420C7 /* ContentView.swift in Sources */,
+				2638225725E563B400C420C7 /* HtownFarmersMarketsApp.swift in Sources */,
+				2638227725E575B700C420C7 /* MarketView.swift in Sources */,
+				2638227425E573C500C420C7 /* Vendor.swift in Sources */,
+				2638226D25E5708800C420C7 /* Bundle-Decodable.swift in Sources */,
+				26C985F525E6BC80007BCB84 /* CLLocationCoordinate.swift in Sources */,
+				2638227A25E58EB700C420C7 /* VendorView.swift in Sources */,
+				2638227025E5723700C420C7 /* Market.swift in Sources */,
+				26C4555925FEA9AB00FC0DFB /* UserSettings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2638226025E563B600C420C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2638226125E563B600C420C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2638226325E563B600C420C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6607BBAEAD21135E07CB9D92 /* Pods-HtownFarmersMarkets.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HtownFarmersMarkets/Preview Content\"";
+				DEVELOPMENT_TEAM = R3ASZBMC59;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HtownFarmersMarkets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-michaeldichiara3.HtownFarmersMarkets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2638226425E563B600C420C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C6059D8F95EC49827C98886 /* Pods-HtownFarmersMarkets.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HtownFarmersMarkets/Preview Content\"";
+				DEVELOPMENT_TEAM = R3ASZBMC59;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HtownFarmersMarkets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-michaeldichiara3.HtownFarmersMarkets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2638224E25E563B300C420C7 /* Build configuration list for PBXProject "HtownFarmersMarkets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2638226025E563B600C420C7 /* Debug */,
+				2638226125E563B600C420C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2638226225E563B600C420C7 /* Build configuration list for PBXNativeTarget "HtownFarmersMarkets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2638226325E563B600C420C7 /* Debug */,
+				2638226425E563B600C420C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		26AC6C6325E6EF3C00E4B1A3 /* XCRemoteSwiftPackageReference "SwiftlySearch" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thislooksfun/SwiftlySearch";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		26AC6C6425E6EF3C00E4B1A3 /* SwiftlySearch */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 26AC6C6325E6EF3C00E4B1A3 /* XCRemoteSwiftPackageReference "SwiftlySearch" */;
+			productName = SwiftlySearch;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2638224B25E563B300C420C7 /* Project object */;
+}

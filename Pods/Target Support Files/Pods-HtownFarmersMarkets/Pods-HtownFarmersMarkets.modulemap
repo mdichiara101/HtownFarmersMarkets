@@ -1,0 +1,6 @@
+framework module Pods_HtownFarmersMarkets {
+  umbrella header "Pods-HtownFarmersMarkets-umbrella.h"
+
+  export *
+  module * { export * }
+}
