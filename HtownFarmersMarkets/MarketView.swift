@@ -45,14 +45,22 @@ struct MarketView: View {
             .foregroundColor(Color("BodyFontColor"))
                    
         Map(coordinateRegion: $region, annotationItems: annotations) {
-        MapAnnotation(coordinate: $0.coordinate, content: {
+            annotation in
+        MapAnnotation(coordinate: annotation.coordinate, content: {
         VStack{
         Group {
         Image(systemName: "mappin.circle.fill")
             .resizable()
             .frame(width: 30.0, height: 30.0)
-            }
+        }
+        .onTapGesture{
+            let mapItem = MKMapItem(placemark: MKPlacemark(coordinate: annotation.coordinate, addressDictionary:nil))
+            mapItem.name = "\(market.id)"
+            mapItem.openInMaps(launchOptions: [MKLaunchOptionsDirectionsModeKey : MKLaunchOptionsDirectionsModeDriving])
+        }
+        
             .foregroundColor(.red)
+            
             }})
             }
             .frame(width: 300, height: 300)
@@ -178,8 +186,8 @@ struct MarketView: View {
         content.sound = UNNotificationSound.default
                             
         var dateComponents = DateComponents()
-        dateComponents.hour = 8
-        dateComponents.minute = 30
+        dateComponents.hour = 11
+        dateComponents.minute = 35
                     
         dateComponents.weekday = WeekDaytoInt(market: market)
                     
