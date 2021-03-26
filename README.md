@@ -22,32 +22,27 @@ Technologies:
     - Coming Soon: Firebase 
 
 Front Page
-
-
+-
 <img width="397" alt="HtX-1" src="https://user-images.githubusercontent.com/57690548/112662362-9a624e00-8e25-11eb-8c00-899d0adacd82.png">
 <img width="441" alt="dHtX-1" src="https://user-images.githubusercontent.com/57690548/112662405-a64e1000-8e25-11eb-9a9d-b84bf5849b70.png">
 
 Market List
-
-
+-
 <img width="397" alt="HtX-2" src="https://user-images.githubusercontent.com/57690548/112662481-bebe2a80-8e25-11eb-8756-2d12636bd56e.png">
 <img width="441" alt="dHtX-2" src="https://user-images.githubusercontent.com/57690548/112662553-d09fcd80-8e25-11eb-8fd8-39819c705eb5.png">
 
 Market View
-
-
+-
 <img width="441" alt="HtX-3" src="https://user-images.githubusercontent.com/57690548/112662600-df868000-8e25-11eb-8537-71d205827e45.png">
 <img width="441" alt="dHtX-3" src="https://user-images.githubusercontent.com/57690548/112662643-ea411500-8e25-11eb-8461-769f8260c7af.png">
 
 Vendor List
-
-
+-
 <img width="441" alt="HtX-4" src="https://user-images.githubusercontent.com/57690548/112662701-fd53e500-8e25-11eb-8f37-9c33b088c221.png">
 <img width="441" alt="dHtX-4" src="https://user-images.githubusercontent.com/57690548/112662727-05138980-8e26-11eb-8422-2c55b93cb7e8.png">
 
 Vendor View
-
-
+-
 <img width="441" alt="HtX-5" src="https://user-images.githubusercontent.com/57690548/112662765-10ff4b80-8e26-11eb-93ae-837e7d1fbde3.png">
 <img width="441" alt="dHtX-5" src="https://user-images.githubusercontent.com/57690548/112662797-1b214a00-8e26-11eb-8108-cafaad0cb590.png">
 
