@@ -59,7 +59,7 @@ struct MarketView: View {
             mapItem.openInMaps(launchOptions: [MKLaunchOptionsDirectionsModeKey : MKLaunchOptionsDirectionsModeDriving])
         }
         
-            .foregroundColor(.red)
+        .foregroundColor(isOpen(market: market))
             
             }})
             }
@@ -194,6 +194,18 @@ struct MarketView: View {
         let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
         let request = UNNotificationRequest(identifier:UUID().uuidString, content: content, trigger: trigger)
         UNUserNotificationCenter.current().add(request)
+        }
+    }
+    
+    func isOpen(market: Market) -> Color{
+        let today = Date()
+        let formatter = DateFormatter()
+        formatter.dateFormat = "EEEE"
+        if(market.open.elementsEqual(formatter.string(from: today))){
+            return .green
+        }
+        else{
+            return .red
         }
     }
    
