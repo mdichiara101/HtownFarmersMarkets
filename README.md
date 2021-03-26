@@ -1,5 +1,5 @@
 # HTXFarmersMarkets
- 
+
 This was a project I started back in February 2021 after I spent months learning SwiftUI. I am the sole creator/developer of this project. It is not 100% complete though I need to make some updates on all the vendors at these markets rather than just two and add several other markets.
 
 The project is simple it shows farmers markets around Houston on the map. The pins are green when the market is open and red when closed. Each pin is its own navigation link taking the user the market view when clicked.
@@ -12,6 +12,11 @@ The vendor view will just give the website of the vendor, the vendors logo, and 
 
 I've been on and off with this project for about 2 months.
 
+Things that still need to be done:
+	Add more markets and all the vendors at those markets to the database. Will have to get the vendors data myself in person.
+	Implement firebase database so I can update the data without having to update the entire app ("Still don't know how Im going to store the pictures through firebase")
+	
+
 
 Technologies:
     - SwiftUI
@@ -20,6 +25,9 @@ Technologies:
     - CocoaPods
     - Dark Mode
     - Coming Soon: Firebase 
+App Icon
+-
+![1024](https://user-images.githubusercontent.com/57690548/112664138-a222f200-8e27-11eb-8ee2-0a357b792b56.png)
 
 Front Page
 -
