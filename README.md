@@ -6,7 +6,7 @@ The project is simple it shows farmers markets around Houston on the map. The pi
 	
 The buttons below are both navigation links as well and when clicked it will show the list of markets or the list of vendors all derived from json files. 
 
-The market view will show pictures of the market, the location of the market, vendors at that market, and general information about the market. There is a notification button on the top right of the navigation bar enabling users to be notified once the market is opened.
+The market view will show pictures of the market, the location of the market, vendors at that market, and general information about the market. There is a notification button on the top right of the navigation bar enabling users to be notified once the market is opened. The map pin when selected will take the user to apple maps and route them to the market
 
 The vendor view will just give the website of the vendor, the vendors logo, and general information about the vendors products.
 
